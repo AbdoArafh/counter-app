@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+}
+
+.character {
+  height: 1em;
+  overflow: hidden;
+  /* animation: show-character 0.35s ease; */
+}
+
+.character .inner {
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.35s ease-in;
+}
+
+.character .inner span {
+  line-height: 1;
+}
+
+/* @keyframes show-character {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 1em;
+    opacity: 1;
+  }
+} */
